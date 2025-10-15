@@ -7,3 +7,171 @@
 body{
      font-family: "Poppins", sans-serif;
 }
+.properties-section {
+  background-color: #ffffff;
+  padding: 3rem ;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.properties-section .container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.properties-section h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #030407; 
+}
+
+.properties-section 
+.span {
+  color: #7b15f0;  
+  font-weight: 700;
+}
+
+.properties-section p {
+  color: #080808; 
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 30px;
+  border: 2px solid #a163e8;
+  background: transparent;
+  color: #7c3aed; 
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+  margin-bottom: 90px;
+}
+
+.btn:hover {
+   background: linear-gradient(135deg, #ec7272, #b201f8);
+  color: #fff;
+}
+
+.btn.active {
+  background: linear-gradient(90deg, #a163e8, #d8b4fe);
+  border: none;
+  color: white;
+}
+.property-card {
+  width: 320px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgb(0 0 0 / 0.1);
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  margin: 1rem;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.property-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0;
+  color: white;
+  position: relative;
+  font-size: 0.9rem;
+}
+
+.property-header.maison {
+  background: linear-gradient(135deg, #4f6ef7, #3091fb);
+}
+
+.property-header.appartement {
+  background: linear-gradient(135deg, #e872ec, #b201f8);
+}
+.property-header.villa{
+     background: linear-gradient(135deg, #ec7272, #b201f8);
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 8px;
+}
+
+.property-type {
+  font-weight: 500;
+  text-align: center;
+}
+
+.property-body {
+  padding: 20px 25px 30px;
+  color: #374151;
+}
+
+.property-body h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #111827;
+}
+
+.property-body p {
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  color: #6b7280;
+}
+
+.price-surface {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.price {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #5c5ce6; /* violet */
+}
+
+.surface {
+  font-size: 0.875rem;
+  color: #6b7280; /* gris */
+}
+
+.features {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  font-size: 0.875rem;
+  color: #374151;
+  margin-bottom: 15px;
+}
+
+.details-btn {
+  display: block;
+  width: 100%;
+  background-color: #5c5ce6;
+  color: white;
+  font-weight: 600;
+  padding: 12px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.details-btn:hover {
+  background-color: #4949c1;
+}
+
